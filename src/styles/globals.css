@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.blue-gradient-border {
+	border-image-source: linear-gradient(to right, #24c6dc, #514a9d);
+	border-image-slice: 1;
+}
+
+.do-side-fade {
+	-webkit-mask: linear-gradient(90deg, #0000, #000 0% 80%, #0000);
+}
